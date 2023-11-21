@@ -9,4 +9,6 @@ target 'Twitter' do
 
 pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
+pod 'FirebaseDatabase'
+pod 'FirebaseStorage'
 end
