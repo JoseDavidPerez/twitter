@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393AAF382B0EEF5B00D21DA7 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393AAF372B0EEF5B00D21DA7 /* UserServices.swift */; };
+		393AAF3A2B0EF49800D21DA7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393AAF392B0EF49800D21DA7 /* User.swift */; };
 		39D8925A2AFB438800D17A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D892592AFB438800D17A1F /* AppDelegate.swift */; };
 		39D8925C2AFB438800D17A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D8925B2AFB438800D17A1F /* SceneDelegate.swift */; };
 		39D892612AFB438800D17A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D8925F2AFB438800D17A1F /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393AAF372B0EEF5B00D21DA7 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		393AAF392B0EF49800D21DA7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		39D892562AFB438800D17A1F /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D892592AFB438800D17A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39D8925B2AFB438800D17A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				39E7B7D52B0C6E3E00BB5BED /* AuthService.swift */,
+				393AAF372B0EEF5B00D21DA7 /* UserServices.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 		39D892732AFB44BA00D17A1F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				393AAF392B0EF49800D21DA7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,11 +304,13 @@
 			files = (
 				39D8927B2AFB48CF00D17A1F /* NotificationsController.swift in Sources */,
 				39D8927D2AFB48E300D17A1F /* ConversationsController.swift in Sources */,
+				393AAF382B0EEF5B00D21DA7 /* UserServices.swift in Sources */,
 				39E7B78F2B0BD50800BB5BED /* Utilities.swift in Sources */,
 				39D8925A2AFB438800D17A1F /* AppDelegate.swift in Sources */,
 				39D8927F2AFB527900D17A1F /* Extensions.swift in Sources */,
 				39D892822AFC159100D17A1F /* LoginController.swift in Sources */,
 				39E7B7D62B0C6E3E00BB5BED /* AuthService.swift in Sources */,
+				393AAF3A2B0EF49800D21DA7 /* User.swift in Sources */,
 				39D892792AFB48B900D17A1F /* ExploreController.swift in Sources */,
 				39D8925C2AFB438800D17A1F /* SceneDelegate.swift in Sources */,
 				39D892752AFB457900D17A1F /* MainTabController.swift in Sources */,
